@@ -520,15 +520,15 @@ function Get-SQLDatabaseFiles
     .PARAMETER dbfilter
         This is used to return only show details on certain databases
     .EXAMPLE
-        Get-Get-SQLDatabaseFiles "SQL01"
+        Get-SQLDatabaseFiles "SQL01"
     .EXAMPLE
-        Get-Get-SQLDatabaseFiles "SQL01\INST01"
+        Get-SQLDatabaseFiles "SQL01\INST01"
     .EXAMPLE
-        Get-Get-SQLDatabaseFiles "SQL01\INST01" 4321
+        Get-SQLDatabaseFiles "SQL01\INST01" 4321
     .EXAMPLE
-        Get-Get-SQLDatabaseFiles -inst "SQL01\INST01"
+        Get-SQLDatabaseFiles -inst "SQL01\INST01"
     .EXAMPLE
-        Get-Get-SQLDatabaseFiles -inst "SQL01\INST01" -port 4321
+        Get-SQLDatabaseFiles -inst "SQL01\INST01" -port 4321
     .INPUTS
     .OUTPUTS
         System.Array
@@ -743,15 +743,15 @@ function Get-SQLDatabases
     .PARAMETER port
         This is the port of the instance that needs to be used
     .EXAMPLE
-        Get-Get-SQLDatabases "SQL01"
+        Get-SQLDatabases "SQL01"
     .EXAMPLE
-        Get-Get-SQLDatabases "SQL01\INST01"
+        Get-SQLDatabases "SQL01\INST01"
     .EXAMPLE
-        Get-Get-SQLDatabases "SQL01\INST01" 4321
+        Get-SQLDatabases "SQL01\INST01" 4321
     .EXAMPLE
-        Get-Get-SQLDatabases -inst "SQL01\INST01"
+        Get-SQLDatabases -inst "SQL01\INST01"
     .EXAMPLE
-        Get-Get-SQLDatabases -inst "SQL01\INST01" -port 4321
+        Get-SQLDatabases -inst "SQL01\INST01" -port 4321
     .INPUTS
     .OUTPUTS
         System.Array
