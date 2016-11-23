@@ -378,15 +378,15 @@ function Get-SQLAgentJobs
     .PARAMETER port
         This is the port of the instance that needs to be used
     .EXAMPLE
-        Get-SQLServerJobs "SQL01"
+        Get-SQLAgentJobs "SQL01"
     .EXAMPLE
-        Get-SQLServerJobs "SQL01\INST01"
+        Get-SQLAgentJobs "SQL01\INST01"
     .EXAMPLE
-        Get-SQLServerJobs "SQL01\INST01" 4321
+        Get-SQLAgentJobs "SQL01\INST01" 4321
     .EXAMPLE
-        Get-SQLServerJobs -inst "SQL01\INST01"
+        Get-SQLAgentJobs -inst "SQL01\INST01"
     .EXAMPLE
-        Get-SQLServerJobs -inst "SQL01\INST01" -port 4321
+        Get-SQLAgentJobs -inst "SQL01\INST01" -port 4321
     .INPUTS
     .OUTPUTS
         System.Array
